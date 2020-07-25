@@ -1,5 +1,3 @@
-import styled from 'styled-components';
-
 import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
@@ -11,15 +9,17 @@ export default createGlobalStyle`
 
   html, body, #root{
     max-height: 100vh;
-    max-width: 100vh;
+    max-width: 100vw;
+
     height: 100%;
     width: 100%;
+    color: white;
   }
 
   *, button, input{
     border: 0;
     background: none;
-    font-family: -apple-system, system-ui, sans-serif;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, Arial, sans-serif;
   }
 
   html{
