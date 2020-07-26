@@ -14,6 +14,10 @@ const Feed: React.FC = () => {
         <Tweet />
         <Tweet />
         <Tweet />
+        <Tweet />
+        <Tweet />
+        <Tweet />
+        <Tweet />
       </Tweets>
     </Container>
   );

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Feed from '../Feed';
-
+import Perfil from '../../assets/perfil.jpg';
 import {
   Container,
   Banner,
@@ -17,19 +17,19 @@ const ProfilePage: React.FC = () => {
   return (
     <Container>
       <Banner>
-        <Avatar />
+        <Avatar src={Perfil} />
       </Banner>
 
       <ProfileData>
         <EditButton outlined>Editar Perfil</EditButton>
-        <h1>Gledson santos</h1>
-        <h2>@gledson.js</h2>
+        <h1>Gledson.js</h1>
+        <h2>@Gledsonssj</h2>
 
         <p>Developer</p>
 
         <ul>
           <li>
-            <LocationIcon />
+            <LocationIcon />  
             Montadas, PB
           </li>
 
@@ -41,11 +41,11 @@ const ProfilePage: React.FC = () => {
 
         <Followage>
           <span>
-            seguindo <strong>100</strong>
+            seguindo <strong>10000</strong>
           </span>
 
           <span>
-            <strong>100 </strong> seguidores
+            <strong>10000 </strong> seguidores
           </span>
         </Followage>
       </ProfileData>

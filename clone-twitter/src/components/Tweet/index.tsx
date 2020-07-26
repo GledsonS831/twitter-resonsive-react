@@ -31,32 +31,31 @@ const Tweet: React.FC = () => {
 
         <Content>
           <Header>
-            <strong>ReactDevelopment</strong>
+            <strong>WebDevelopment</strong>
             <span>@gledson.js</span>
-
             <Dot />
-            <time>25 de julho</time>
-            <Description>Foguete não tem ré </Description>
-
-            <ImageContent />
-
-            <Icons>
-              <Status>
-                <CommentIcon />
-                20
-              </Status>
-
-              <Status>
-                <RetweetIcon />
-                20
-              </Status>
-
-              <Status>
-                <LikeIcon />
-                999
-              </Status>
-            </Icons>
+            <time>27 de jun</time>
           </Header>
+
+          {/* eslint-disable-next-line jsx-a11y/accessible-emoji */}
+          <Description>Foguete não tem ré 🚀</Description>
+
+          <ImageContent />
+
+          <Icons>
+            <Status>
+              <CommentIcon />
+              18
+            </Status>
+            <Status>
+              <RetweetIcon />
+              18
+            </Status>
+            <Status>
+              <LikeIcon />
+              999
+            </Status>
+          </Icons>
         </Content>
       </Body>
     </Container>
