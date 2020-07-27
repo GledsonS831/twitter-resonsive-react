@@ -11,11 +11,10 @@ TWITTER PROFILE PAGE IMPLEMENTATION
 </h1>
 
 
-<p align="center">
-	<p align="center">    
-	 <img src="https://img.shields.io/badge/label-MESSAGE-RED.svg"/>    
-	</p>
- </p>
+<h1 align="center">
+
+<span margin=""><a><img src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FgledsonDev"/></a><a><img src="https://img.shields.io/github/stars/GledsonS831/twitter-resonsive-react?style=social"/></a>[![Netlify Status](https://api.netlify.com/api/v1/badges/1b1e072a-6bc3-49fb-906a-e37a190d546c/deploy-status)](https://twitter-profile-page.netlify.app)</span>
+</h1>
 
 
 
